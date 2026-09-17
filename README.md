@@ -86,6 +86,8 @@ python run.py
 
 Open `http://localhost:8501` when Streamlit starts. Stop the server with `Ctrl+C`.
 
+deployed. chect it in `https://urlshield-ai-explainable-phishing-url-detection-risk-analysis.streamlit.app/`
+
 Use the demo URLs shown in the app, or try `https://example.com/`. Retrain after replacing `data.csv` with a compatible labeled dataset containing `url` and `label` columns.
 
 The scanner accepts URLs with or without a scheme, normalizes them locally, and never contacts the destination. The Model insights view reports metrics from the current synthetic/demo training run and is explicitly not a production benchmark.
